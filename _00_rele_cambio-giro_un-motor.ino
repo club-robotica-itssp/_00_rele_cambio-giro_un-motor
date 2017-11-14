@@ -22,5 +22,10 @@ void loop() {
   digitalWrite(2, HIGH);
   digitalWrite(3, HIGH);
   delay(2000);
+
+  // Deteniendo el giro del motor.
+  digitalWrite(2, HIGH);
+  digitalWrite(3, LOW);
+  delay(2000);
 }
 
